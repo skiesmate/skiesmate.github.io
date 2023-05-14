@@ -72,7 +72,7 @@ const m = ()=>{
     const e = document.getElementById("msBingFrame");
     let a = 0, i;
     const n = ()=>{
-        const t = Math.floor(Math.random() * 10) + 1;
+        const t = Math.floor(Math.random() * 3) + 1;
         return g(t).join(" ")
     }
     ;
