@@ -1,4 +1,4 @@
-(function() {1
+(function() {
     const a = document.createElement("link").relList;
     if (a && a.supports && a.supports("modulepreload"))
         return;
